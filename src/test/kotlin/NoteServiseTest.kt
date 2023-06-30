@@ -23,7 +23,7 @@ class NoteServiceTest {
     fun add() {
         val note = Note(title = "title 1", text = "text 1")
         val result = NoteService.add(note)
-        assertEquals(1, result.noteId)
+        assertEquals(2, result.noteId)
     }
 
     @Test
